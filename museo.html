@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo Interactivo</title>
+    <link rel="stylesheet" href="./museostyle.css">
+</head>
+<body>
+    <header>
+        <h1>HALL OF FAME NBA</h1>
+    </header>
+    <nav class="container">
+        <img class="Bill" onclick="controlFunction()" src="https://hoopshype.com/wp-content/uploads/sites/92/2017/09/bill-russell.jpg?w=1000&h=600&crop=1" alt="Bill Rusell">
+        <article onmouseover="this.innerHTML='LeBron Raymone James Sr. (Akron, Ohio, 30 de diciembre de 1984) es un jugador de baloncesto estadounidense que actualmente pertenece a la plantilla de Los Angeles Lakers de la NBA. Con 2,06 metros de estatura, su posición es la de alero, pero su talento, versatilidad y poderío físico le permiten jugar tanto de base como de ala-pívot.James es considerado como uno de los mejores jugadores de baloncesto del mundo y de la historia.'" onmouseout="LeBronJames(this)">LeBron James </article>
+        <img id="LeBron"src="https://ognsc.com/wp-content/uploads/2020/03/Lebron-James-Named-NBA-Western-Conference-Player-Of-The-Month-pic-1-1024x768.jpg" alt="LeBron">
+        <article id="MJ" onmousedown="this.innerHTML='Michael Jeffrey Jordan (Nueva York; 17 de febrero de 1963) es un exjugador de baloncesto estadounidense. Con 1,98 metros de altura, jugaba en la posición de escolta. Es considerado por la mayoría de aficionados y especialistas como el mejor jugador de baloncesto de todos los tiempos.2​ Se retiró definitivamente en 2003 en los Washington Wizards, tras haberlo hecho en dos ocasiones anteriores, en 1993 y 1999, después de haber jugado 13 temporadas en los Chicago Bulls.'" onmouseup="MJ(this)"></article>
+        <img class="MJ" src="https://dailypost.ng/wp-content/uploads/2015/03/Michael-Jordan.jpg" alt="Michael Jordan">
+        <article id="Kobe" ondblclick="this.innerHTML='(Filadelfia, 1978) Jugador de baloncesto estadounidense, uno de los mejores anotadores en la historia de la NBA. Ganador de tres anillos, vivió a la sombra de la monumental figura de Shaquille O’Neal en Los Ángeles Lakers. La marcha de éste al Miami Heat le obligó a demostrar que, sin el mejor pívot-anotador del mundo, podía convertir de nuevo en campeón a Los Ángeles Lakers, el equipo de su vida.'" >Mamba</article>
+        <img class="Kobe" src="https://datacdn.btimesonline.com/data/images/full/119339/nba-los-angeles-lakers-forward-kobe-bryant-24-in-action-during-the-game-between-the-rockets-and-the-lakers-at-the-toyota-center.jpg" alt="Kobe Bryant">
+        <article id="Larry" onmousemove="this.innerHTML='Larry Joe Bird (West Baden Springs (Indiana), 7 de diciembre de 1956) es un exjugador de baloncesto estadounidense que disputó 13 temporadas en la NBA, todas ellas con los Boston Celtics, con los que consiguió tres campeonatos: 1981, 1984 y 1986. Con una estatura de 2,06 metros, es considerado por muchos como el mejor alero en la historia de la NBA1​2​3​ y una de las más grandes figuras del baloncesto mundial.'" onmouseup="Bird(this)"></article>
+        <img class="Larry" src="https://e0.365dm.com/20/04/1600x900/skysports-larry-bird-boston-celtics_4960592.jpg?20200402120620" alt="Larry Bird">
+    </nav>
+
+<script src="./museo.js"></script>
+        
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    width: 100%;   
+    height: 500px;
+    display: flex;
+    background-image: url(https://wallpapercave.com/wp/wp2939882.jpg);
+    justify-content: center;
+    font-size: 80px;
+    align-items: center;
+    color:aliceblue;
+    border-bottom: 1px white solid ;
+
+}
+
+.Bill{
+    width: 100%;
+    height: 490px;
+}
+
+#LeBron{
+    display: flex;
+    width: 100%;
+    height: 590px;
+}
+
+article{
+    display: flex;
+    background-color:gold;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+    height: 90px;
+}
+
+#MJ{
+    width: 100%;
+    background-color: red;
+}
+.MJ{
+    width: 100%;
+    font-size: 90rem;
+}
+
+#Kobe{
+    width: 100%;
+    background-color: purple;
+}
+.Kobe{
+    width: 100%;
+}
+#Larry{
+    background-color: green;
+}
